@@ -1,11 +1,7 @@
 package school.mjc.stage0.loops.task5;
 
 public class Hourglass {
-    public static void main(String[] args) {
-        printHourglassOfGivenSize(0);
-    }
-
-    public static void printHourglassOfGivenSize(int height) {
+   public void printHourglassOfGivenSize(int height) {
         int x = height;
 
         for (int i = 0; i < x + 1; i++) {
